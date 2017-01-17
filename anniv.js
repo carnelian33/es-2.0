@@ -37,9 +37,11 @@ var jourActuel = date.getDate();
             
             document.getElementById('fete').innerHTML = '<p>' + "Bon anniv " + prenom + ". Félicitation pour tes " + age + " ans" + '.</p>'
             
+            break
+            
         } else {
     //message pour les tests
-      
+            document.getElementById('fete').innerHTML = '<p>' + "Et bien pas d'anniversaire en ce jour! Si je vous ai oublié, dites le moi!" + '.</p>'
         
         }
       }
