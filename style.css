@@ -15,11 +15,13 @@ header
     text-align: center;
     border: 1px darkblue solid;
     border-radius: 10px;
+    
 }
 nav
 {
     border: 2px orangered solid;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px orangered;
     
 }
 nav ul
@@ -69,11 +71,12 @@ article, aside
     margin: auto;
     padding: 4px 4px 4px 4px;
     text-align: center;
+    box-shadow: 3px 3px 3px orangered;
 }
 footer
 {
     display: flex;
-    background: rgb(255,226,43);
+    background: rgb(82,192,234);
     color: black;
     border: 2px black solid;
     border-radius: 10px;
@@ -91,11 +94,13 @@ footer a:hover
 
 #dicton
 {
+    text-align: center;
     width: 40%;
     margin:auto;
 }
 #effectif
 {
+        text-align: center;
     width: 40%;
     margin: auto;
 }
@@ -108,5 +113,8 @@ footer a:hover
 {
 	margin: auto;
 }
-
+#anniv
+{
+    
+}
 
