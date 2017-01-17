@@ -1,0 +1,112 @@
+body
+{
+    background: black;
+    color: white;
+}
+#page
+{
+    width: 70%;
+    margin: auto;
+}
+header
+{
+    background: rgb(82,192,234);
+    color: black;
+    text-align: center;
+    border: 1px darkblue solid;
+    border-radius: 10px;
+}
+nav
+{
+    border: 2px orangered solid;
+    border-radius: 10px;
+    
+}
+nav ul
+{
+    list-style-type: none;
+    font-size: 1.4em;
+    display: flex;
+    justify-content: space-between;
+}
+nav li
+{
+    margin-right: 15px;
+}
+nav a
+{
+    color: orangered;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: darkorange;
+}
+a
+{
+	color: turquoise;
+}
+a:hover
+{
+	color: white;
+}
+section
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+aside ul
+{
+    list-style-type: none;
+}
+article, aside
+{
+    border: 2px orangered solid;
+
+    border-radius: 10px;
+    margin: auto;
+    padding: 4px 4px 4px 4px;
+    text-align: center;
+}
+footer
+{
+    display: flex;
+    background: rgb(255,226,43);
+    color: black;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: auto;
+}
+footer a
+{
+    color: darkred;
+}
+footer a:hover
+{
+    color: darkblue;
+    font-size: 1.1em;
+}
+
+#dicton
+{
+    width: 40%;
+    margin:auto;
+}
+#effectif
+{
+    width: 40%;
+    margin: auto;
+}
+#contact
+{
+    width: 20%;
+    margin: auto;
+}
+#citation
+{
+	margin: auto;
+}
+
+
