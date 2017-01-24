@@ -72,6 +72,7 @@ article, aside
     padding: 4px 4px 4px 4px;
     text-align: center;
     box-shadow: 3px 3px 3px orangered;
+    font-size: 1.2em;
 }
 footer
 {
@@ -81,6 +82,11 @@ footer
     border: 2px black solid;
     border-radius: 10px;
     margin: auto;
+}
+ 
+footer ul
+{
+    list-style-type: none;
 }
 footer a
 {
@@ -100,7 +106,8 @@ footer a:hover
 }
 #effectif
 {
-        text-align: center;
+
+    text-align: center;
     width: 40%;
     margin: auto;
 }
@@ -113,8 +120,9 @@ footer a:hover
 {
 	margin: auto;
 }
-#anniv
+#cours
 {
-    
+   font-size: 1.6em; 
+    text-align: center;
 }
 

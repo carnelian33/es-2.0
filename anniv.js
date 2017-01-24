@@ -33,8 +33,7 @@ var jourActuel = date.getDate();
 // boucle a condition pour verif si anniv et affichage
         if ((jour === jourActuel) && (mois === moisActuel)){
  
-            alert("bon anniv " + prenom);
-            
+                        
             document.getElementById('fete').innerHTML = '<p>' + "Bon anniv " + prenom + ". Félicitation pour tes " + age + " ans" + '.</p>'
             
             break

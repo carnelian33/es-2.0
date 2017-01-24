@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
 
                 var auteur = ['Jesus dit chris', 'Proverbe Coréen', 'Boudha', 'Devise Shadock', 'Papy', 'Confucius'];
 
-                var date = ['', ''];
+                var date = ['',''];
 
                 var tirage = [Math.round(Math.random()*(texte.length-1))];
 
@@ -26,12 +26,12 @@ window.addEventListener("load", function () {
 
                 // mettre dom du site
 
+  
                 document.getElementById('citation').innerHTML = '<p>' + quoi + ' ' + '.</div>'
-
                 document.getElementById('auteur').innerHTML = '<p>' + qui + ' ' + '.</div>'
 
                
 
-                console.log("Bon anniv Nico?");
+                console.log("test");
 
 });
