@@ -1,0 +1,10 @@
+{
+	"dictons" : [
+		{ "citation" : "test",
+		  "auteur" : "moi"
+		},
+		{ "citation" : "test2",
+		  "auteur" : "moi aussi"
+		}
+	]
+}
